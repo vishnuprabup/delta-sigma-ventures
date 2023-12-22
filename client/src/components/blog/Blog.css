@@ -58,3 +58,8 @@
 .button-container > .--details {
   font-size: 14px;
 }
+
+.nav-icon-disabled > svg {
+  fill: darkgray;
+  color: darkgray;
+}

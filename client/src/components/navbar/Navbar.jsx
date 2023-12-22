@@ -29,6 +29,7 @@ const Navbar = ({
       <div className="navbar-inner-container">
         <div className="navbar-brand">
           <img src={Logo} alt="logo" className="brand-logo" />
+          <p>Delta Sigma</p>
         </div>
         <div className="navbar-actions">
           <button className="dsv-button" onClick={() => setIsModalOpen(true)}>

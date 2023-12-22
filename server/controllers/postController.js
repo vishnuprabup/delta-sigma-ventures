@@ -28,6 +28,7 @@ export const getPostsController = async (req, res) => {
     const totalPages = Math.ceil(fullPost.length / limit);
 
     const posts = await Post.find()
+    .sort({updatedAt: -1})
       .skip(page * limit)
       .limit(limit);
 
