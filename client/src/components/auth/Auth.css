@@ -1,0 +1,28 @@
+.auth-inner-card {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 1rem;
+}
+
+.auth-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.auth-error > p {
+  font-size: 16px;
+  color: #de0a26;
+}
+
+.auth-switch {
+  display: flex;
+  gap: 5px;
+}
+
+.auth-switch > span {
+  text-decoration: underline;
+
+  cursor: pointer;
+}

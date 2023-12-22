@@ -1,0 +1,60 @@
+.blog-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.blog-inner-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.nav-action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid black;
+  padding: 6px 12px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+.nav-action-button-disabled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid lightgray;
+  padding: 6px 12px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: not-allowed;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 24px 16px;
+}
+
+.button-container > .--actions {
+  display: flex;
+  gap: 16px;
+}
+
+.button-container > .--details {
+  font-size: 14px;
+}

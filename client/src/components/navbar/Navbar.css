@@ -1,0 +1,64 @@
+.navbar-container {
+  padding: 8px;
+}
+
+.navbar-inner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-profile-container {
+  position: relative;
+}
+
+.navbar-profile {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.7rem 0.7rem;
+  /* border-radius: 5px;
+  border: 0.5px solid var(--primary-color); */
+}
+
+.login-btn {
+  padding: 12px 20px;
+}
+
+.navbar-profile > h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.profile-icon > svg {
+  fill: black;
+  color: black;
+}
+
+.expand-options {
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.expand-options > div {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.expand-options > div:hover {
+  background-color: lightblue;
+}
+
+.brand-logo {
+  padding: 10px;
+  width: 65px;
+}

@@ -1,0 +1,32 @@
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-inner-container {
+  padding: 24px;
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  flex-direction: column;
+  box-shadow: 0 4px 16px 0 #3232470f, 0 4px 8px 0 #0064a814;
+}
+
+.modal-close {
+  align-self: flex-end;
+}
+
+.modal-icon {
+  cursor: pointer;
+}
+.modal-icon > svg {
+  fill: black;
+  color: black;
+}

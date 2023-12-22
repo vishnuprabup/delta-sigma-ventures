@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #003862;
+}
+
+.App {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .App {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .App {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .App {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .App {
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .App {
+    width: 100%;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .App {
+    width: 100%;
+  }
+}
+
+.dsv-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.dsv-icon > svg {
+  width: 18px;
+  height: 18px;
+  color: white;
+  fill: white;
+}
+
+.dsv-input-header {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.dsv-input-box {
+  font-size: 1rem;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.7rem 0.7rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.dsv-input-box:focus {
+  border-color: var(--primary-color);
+}
+
+.dsv-button {
+  background-color: var(--primary-color);
+  width: 100%;
+  padding: 0.7rem 0.7rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  gap: 5px;
+}

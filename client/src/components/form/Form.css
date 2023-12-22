@@ -1,0 +1,21 @@
+.form-inner-container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-desc-box {
+  min-height: 100px;
+}
+
+.form-btn {
+  width: fit-content;
+}
