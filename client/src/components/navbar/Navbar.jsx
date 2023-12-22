@@ -3,7 +3,8 @@ import React from "react";
 import ExpandSvg from "../../svgs/ExpandSvg";
 import "./Navbar.css";
 import AddSvg from "../../svgs/AddSvg";
-import Logo from "../../assets/pencil-logo.png";
+import Logo from "../../assets/icons8-pencil-100.png";
+// import Logo from "../../assets/icons8-pencil-gif.gif";
 
 const Navbar = ({
   userInfo,
